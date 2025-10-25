@@ -1,0 +1,21 @@
+/* src/pages/Home.css */
+.homepage {
+  margin-top: 0px;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-img {
+  height: 450px; /* You can adjust this height */
+  object-fit: cover; /* Makes image cover the area without distortion */
+}
+
+@media (max-width: 768px) {
+  .hero-img {
+    height: 300px; /* Responsive height for smaller screens */
+  }
+}

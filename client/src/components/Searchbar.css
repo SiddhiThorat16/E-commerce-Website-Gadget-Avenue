@@ -1,0 +1,12 @@
+.custom-search-btn {
+  background-color: #f2ebf3; /* Your preferred color */
+  border: none;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+
+.custom-search-btn:hover {
+  border-radius: 15px;
+  background-color: white;
+}

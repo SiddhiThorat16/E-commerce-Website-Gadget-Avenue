@@ -1,0 +1,21 @@
+.about-page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-page h1 {
+  color: #007bff;
+}
+
+.about-page img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.about-page h3, .about-page h4 {
+  color: #333;
+}
+
+.about-page p {
+  font-size: 16px;
+  color: #555;
+}

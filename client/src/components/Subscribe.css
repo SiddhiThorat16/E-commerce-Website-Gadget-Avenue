@@ -1,0 +1,24 @@
+.subscribe-section {
+  background: linear-gradient(135deg, #0d6efd, #6610f2);
+  border-radius: 12px;
+  padding: 3rem 1rem;
+  margin: 3rem auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.subscribe-form input[type="email"] {
+  max-width: 400px;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+
+.subscribe-form button {
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #ffc107;
+  transform: scale(1.05);
+}

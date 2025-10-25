@@ -1,0 +1,40 @@
+.card img {
+  height: 200px;
+  object-fit: contain;
+  padding: 3px;
+}
+
+.product-page .main-image img {
+  max-height: 400px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.image-gallery .thumb-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.image-gallery .thumb-img:hover {
+  border-color: #007bff;
+  transform: scale(1.05);
+}
+
+
+.category-card:hover {
+  transform: scale(1.03);
+  transition: 0.3s ease-in-out;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.btn-primary, .btn-outline-primary {
+  border-radius: 8px;
+}

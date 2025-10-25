@@ -1,0 +1,29 @@
+.testimonials-section {
+  padding: 60px 0;
+  background-color: #f9f9f9;
+}
+
+.testimonial-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  text-align: center;
+  height: 100%;
+}
+
+.testimonial-card h5 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.testimonial-card p {
+  font-style: italic;
+  color: #555;
+  margin: 10px 0;
+}
+
+.stars {
+  margin-top: 10px;
+}
